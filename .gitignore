@@ -1,3 +1,36 @@
 .vscode
-node_modules/
+*.js
+*.map
 typings/
+app/**/*.map
+app/**/*.js
+
+# Ignore Visual Studio  Project #
+###################
+*.user
+*.gpState
+*.suo
+bin
+obj
+/packages
+
+# Ignore Node & Bower
+###################
+node_modules
+bower_components
+build
+.tmp
+src/**/*.map
+src/**/*.js
+
+# Ignore Test reporters
+###################
+**/test/coverage
+report
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
